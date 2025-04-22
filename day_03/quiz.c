@@ -1,0 +1,33 @@
+/*  Question 1 */
+/* What does this program print, because of int kilometers? */
+
+
+
+#include <stdio.h>   
+int main(void) {
+    int  miles = 26, yards = 385;
+    int kilometers;
+    kilometers = 1.609 * (miles + yards/1760.0);
+    printf("\nA marathon is %d kilometers.\n", kilometers);
+    return 0;
+ }
+
+
+// ANSWER //
+ /* A marathon is 42 kilometers. */
+
+
+/* Question 2 */
+/* Why do we use the format specifier %d instead of %lf? */
+
+#include <stdio.h>  
+ int main(void) {
+    int  miles = 26, yards = 385;
+    int kilometers;
+    kilometers = 1.609 * (miles + yards/1760.0);
+    printf("\nA marathon is %d kilometers.\n", kilometers);
+    return 0;
+ }  
+
+// ANSWER //
+/*  lf (as in %lf, not "if") is a double and the int answer would print incorrectly. */
