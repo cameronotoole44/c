@@ -24,7 +24,7 @@ double square(double x)
 {return (x * x);}
 
 double cube(double x)
-{return (x * x * x);}
+{return (x * x * x);} // can have definitions before main as well- either way is correct
 
 /*
 
