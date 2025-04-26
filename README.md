@@ -1,2 +1,2 @@
-learning c and c++
-ezclap
+- learning c and c++
+- ezclap
