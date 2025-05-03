@@ -140,3 +140,5 @@ int main(void) {
 
     return 0; // end the program
 }
+
+// Average weight of elephant seals: 6840.02 pounds
